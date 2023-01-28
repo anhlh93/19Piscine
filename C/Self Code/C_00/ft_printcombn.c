@@ -55,3 +55,15 @@ int	main(void)
 	ft_print_combn(3)
 	return (0)
 }
+
+/*
+** Sub function: ft_putchar; 
+** Run loop from 0 to n. For example: 012, 013,.,789
+** Solution: create a list "tab" with 10 numbers, data type char.
+** Create the first number (example: 0123 with n = 4). Print the number
+** For the rest numbers, print "," then the number; 
+** Run loop until tab[0] = 10 - n and tab[i] = 9; (ex n=4 6789)
+** During the loop, if tab[i] (final character or n - 1) != 9, print.
+** Sub - print function: add a parameter to identify print with or without ","
+** Again loop, if tab[i] = 9  
+*/
